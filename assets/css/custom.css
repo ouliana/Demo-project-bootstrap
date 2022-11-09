@@ -1,0 +1,63 @@
+.bg-custom {
+  background-color: #0074d9;
+}
+
+.btn-custom-light {
+  --bs-btn-color: var(--bs-gray-600);
+  --bs-btn-border-color: var(--bs-gray-400);
+  --bs-btn-hover-color: #0074d9;
+  --bs-btn-hover-border-color: #0074d9;
+  --bs-btn-active-color: #0074d9;
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-color: #0074d9;
+  --bs-btn-focus-border-color:#0074d9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.movie-block {
+  text-align: center;
+}
+.movie-block img {
+  margin-bottom: 5%;
+  border-radius: 5%;
+  border: solid 4px #D7CCC8;
+  width: 100%;
+}
+.movie-block a {
+  text-decoration: none;
+  color: #222;
+}
+
+.html, body {
+  height: 100vh;
+}
+
+.list-group a, .rating a {
+  color: #222;
+}
+.list-group a:hover, .rating a:hover {
+  color: #0074d9;
+}
+
+.table tbody > tr > td.vert-align {
+  vertical-align: middle;
+}
+
+footer {
+  color: #222;
+  letter-spacing: 0.1rem;
+  background-color: #e6f1fb;
+  padding: 1rem 0 1.1rem 0;
+}
+footer a {
+  color: #222;
+}
+footer a:hover {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=custom.css.map */

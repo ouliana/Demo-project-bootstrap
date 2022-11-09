@@ -1,0 +1,91 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+$primary: #0074d9;
+$warning: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "warning": $warning
+);
+
+.bg-custom {
+    background-color: $primary;
+}
+
+.btn-custom-light {
+    --bs-btn-color: var(--bs-gray-600);
+    --bs-btn-border-color: var(--bs-gray-400);
+    --bs-btn-hover-color: #{$primary};
+    --bs-btn-hover-border-color: #{$primary};
+    --bs-btn-active-color: #{$primary};
+    --bs-btn-active-bg: var(--bs-white);
+    --bs-btn-active-border-color: #{$primary};
+    --bs-btn-focus-border-color:#{$primary};
+   // --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+}
+
+a {
+    text-decoration: none;
+}
+
+.movie-block {
+    text-align: center;
+
+    img {
+        margin-bottom: 5%;
+        border-radius: 5%;
+        border: solid 4px #D7CCC8;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: #222;
+    }
+        
+}
+
+.html, body {
+	height:  100vh;
+}
+
+.list-group, .rating {
+    a {
+        color:#222;
+        &:hover {
+            color:#{$primary};
+        }
+    }
+}
+
+.table tbody > {
+	tr > {
+		td.vert-align {
+			vertical-align: middle;
+		}
+	}
+}
+
+footer {
+	color: #222;
+    letter-spacing: 0.1rem;
+	background-color: mix(white, $primary, 90%);
+	padding: 1rem 0 1.1rem 0;
+
+    a {
+        color: #222;
+        &:hover {
+            color:#{$primary};
+            text-decoration: none;
+        }
+    }
+}
+
+
+

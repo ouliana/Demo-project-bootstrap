@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Interstellar</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom mb-3">
+          <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">MovieMonster</span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link active" aria-current="page"  href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="series.html">Series</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rating.html">Top Rated</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+               </ul>
+             </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 order-lg-2">
+                  <div class="input-group mb-3 d-block d-sm-none ">
+                         <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                          <button class="btn btn-custom-light" type="submit" value="Submit" id="button-addon2"><i class="bi-search"></i></button>
+                        </div>
+                  </div>
+      
+            <h1>Interstellar</h1>
+            <div class="row my-5">
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4T4wxDnTYLg" title="Interstellar - Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="card text-bg-light text-center mb-3">
+                    <div class="card-body">
+                        Year: <span class="badge bg-secondary rounded-pill me-4">2014</span>
+                        Rating: <span class="badge bg-secondary rounded-pill me-4">8.9</span>
+                        Director: <span class="badge bg-secondary rounded-pill">Christopher Nolan</span>
+                    </div>
+                  </div>
+            </div>
+            <h2>User reviews</h2>
+                <div class="card text-bg-light border-light my-4">
+                    <div class="card-header"><i class="bi-person"></i> 
+                     fontenlabrador</div>
+                     <div class="card-body">
+                     <h4>The best film I have ever seen</h4>
+                         <p>All is amazing. I can't describe anything. It's a film that leads you to think about yourself and your plans in your life. I am a real series/movies' lover and... This was awesome.</p>
+                   </div>
+               </div>
+                <div class="card text-bg-light border-light my-4">
+                    <div class="card-header"><i class="bi-person"></i> 
+                        kosmasp</div>
+                     <div class="card-body">
+                     <h4>Out of this world</h4>
+                     <p>A lot has been said and written about Interstellar. You can obviously take apart any movie that is out there. You'll either love this one or you won't. I kind of would have loved to have watched this on an IMAX screen, the sheer scope of the whole thing. It's just amazing, what Nolan has put on screen here. It's not only the visual experience (there is no 3D here by the way), it's the story/ride you take with it. It might be clear to some earlier than to others, where it's heading (no pun intended), but it doesn't change the fact that it's beautiful ... and terrifying at the same time.</p>
+
+                     <p>Going out and saying this will be considered a classic, might not be too far stretched, but you still can never predict those things. The deserved love the movie gets on IMDb and other places would be an indicator that this will ring true though. The acting is really good, but I can understand if some people have issues with the ending. But the movie had to end in one way or another. It's the best possible way this could go, even if it's not in our grasps just yet ...</p>
+                   </div>
+               </div>
+
+               <div class="mb-3">
+                 <input type="text" class="form-control" id="name" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+              </div>
+              <div class="d-grid d-md-flex justify-content-md-end mb-5">
+                 <input class="btn btn-sm btn-custom-light rounded-2" type="submit" value="Submit">
+                </div>
+         </div>
+  
+         <div class="col-lg-3">
+
+          <div class="card text-bg-light mb-3 d-none d-sm-block">
+               <div class="card-header">Search</div>
+              <div class="card-body">
+                <div class="input-group">
+                   <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                   <button class="btn btn-custom-light" type="button" id="button-addon2"><i class="bi-search"></i></button>
+                 </div>
+              </div>
+          </div>
+
+          <div class="card text-bg-light mb-3">
+                 <div class="card-header">Sign in</div>
+               <div class="card-body">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="Username" placeholder="Username" aria-label="Username">
+                  </div>
+                  <div class="mb-3">
+                      <input type="email" class="form-control" id="Password" placeholder="Password" aria-label="Password">
+                      </div>
+                      <div class="d-grid d-md-flex justify-content-md-end">
+                           <input class="btn btn-sm btn-custom-light rounded-2" type="submit" value="Submit">
+                      </div>
+                </div>
+            </div>
+
+            <div class="card text-bg-light mb-3">
+              <div class="card-header">News</div>
+              <div class="card-body">
+               <p class="card-text">10/26/2022</p>
+               <p class="card-text">We launched a new project.</p>
+              </div>
+           </div>
+
+           <div class="card text-bg-light mb-3">
+                 <div class="card-header">Rating</div>
+               <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="details.html">Interstellar</a>
+                      <span class="badge bg-secondary rounded-pill">8.9</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Mad Max: Fury Road</a>
+                      <span class="badge bg-secondary rounded-pill">8.7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">The Matrix</a>
+                      <span class="badge bg-secondary rounded-pill">8.3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Cloud Atlas</a>
+                      <span class="badge bg-secondary rounded-pill">8.1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Interstellar</a>
+                      <span class="badge bg-secondary rounded-pill">8.9</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Interstellar</a>
+                      <span class="badge bg-secondary rounded-pill">8.9</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Mad Max: Fury Road</a>
+                      <span class="badge bg-secondary rounded-pill">8.7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">The Matrix</a>
+                      <span class="badge bg-secondary rounded-pill">8.3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <a href="#">Cloud Atlas</a>
+                      <span class="badge bg-secondary rounded-pill">8.1</span>
+                    </li>
+                    
+                    
+                  </ul>
+               </div>
+           </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<footer>
+  <div class="container">
+    <p class="text-center"><a href="#">OulianaKotik</a></p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
